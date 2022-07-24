@@ -7,8 +7,8 @@
 }
 
 .navbar{
-    background: #131313;
-    height: 80px;
+    background: #fff;
+    height: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -31,12 +31,13 @@
 
 #navbar__logo{
     background-color: #ffffff;
-    background-image: url("https://naxah3fx8652fpxjz9g08gwf-wpengine.netdna-ssl.com/wp-content/themes/unausa/dist/assets/images/una-usa-mobile.svg");
-    background: size 15%;
+    
+    background: size 50%;
     display:flex;
     cursor: pointer;
     align-items: center;
     font-size:2rem;
+    position: relative;
 }
 
 .fa-gem{
@@ -55,7 +56,7 @@
 }
 
 .navbar__links{
-    color: #ffff;
+    color: #131313;
     display:flex;
     align-items: center;
     justify-content: center;
@@ -93,7 +94,7 @@
 }
 
 .navbar__links:hover{
-    color: #f77062;
+    color: #6b86ff;
     transition: all 0.3s ease;
 }
 
