@@ -4,7 +4,7 @@
     margin:0;
     padding: 0;
     
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 
@@ -33,7 +33,6 @@
 
 #navbar__logo{
     background-color: #ffffff;
-    
     background: size 50%;
     display:flex;
     cursor: pointer;
@@ -86,7 +85,7 @@
     border: none;
     outline: none;
     border-radius: 4px;
-    background: #6b86ff;
+    background: #5B91E5;
     color: #ffff;
 }
 
@@ -96,7 +95,7 @@
 }
 
 .navbar__links:hover{
-    color: #6b86ff;
+    color: #5B91E5;
     transition: all 0.3s ease;
 }
 
@@ -198,7 +197,7 @@ padding-bottom: 2rem;
     position: relative;
     text-align: center;
     color: white;
-    height: 50%;
+    height: 100%;
   }
 
   .main__container h1{
@@ -226,7 +225,7 @@ padding-bottom: 2rem;
   }
   
 .parralax{
-    background: url('/images/unbuildingfront.jpg') no-repeat center;
+    background: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.4)), url('/images/unbuildingfront.jpg') no-repeat center;
     background-size: cover;
     background-attachment: fixed;
     height: 600px;
@@ -265,7 +264,7 @@ padding-bottom: 2rem;
 */
 .main__btn{
     font-size: 1rem;
-    background-color:#6b86ff ;
+    background-color:#5B91E5 ;
     padding: 14px 32px;
     border: none;
     border-radius: 4px;
@@ -381,9 +380,10 @@ mobile screen vvv
 }
 
 .about h1{
-    background-color: #6b86ff;
+    background-color: #5B91E5;
     background-size:100%;
     margin-bottom: 5rem;
+   
     font-size: 2.5rem;
     -webkit-background-clip: text;
     -moz-background-clip: text;
