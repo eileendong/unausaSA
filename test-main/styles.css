@@ -15,8 +15,10 @@
     justify-content: center;
     align-items: center;
     font-size:1.2rem;
-    position:sticky;
+    position:fixed;
     top: 0;
+    width: 100%;
+    transition: top 0.3s;
     z-index: 999;
 }
 
@@ -93,6 +95,8 @@
     background: #2663AA;
     transition: all 0.3s ease;
 }
+
+
 
 .navbar__links:hover{
     color: #5B91E5;
@@ -228,11 +232,11 @@ padding-bottom: 2rem;
     background: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.4)), url('/images/unbuildingfront.jpg') no-repeat center;
     background-size: cover;
     background-attachment: fixed;
-    height: 600px;
+    height: 700px;
 }
-/*hero section*/
 
 
+/*main title VVVV */
 
 /*.main__content h1{
     font-size: 4rem;
@@ -326,7 +330,7 @@ mobile screen vvv
         justify-self: center;
         width:100%;
         margin: 0 auto;
-        height: 90vh;
+        height: 100vh;
     }
 
     .main__content{
@@ -371,7 +375,7 @@ mobile screen vvv
     }
 }
 
-/*about section css*/
+/*about info section*/
 .about{
     display: flex;
     flex-direction: column;
@@ -445,3 +449,134 @@ mobile screen vvv
     transition: 0.2s ease-in;
     cursor: pointer;
 }
+
+@media screen and (max-width: 960px){
+    .about{
+        height: 1600px;
+    }
+
+    .about h1{
+        font-size: 2rem;
+        margin-top:12 rem;
+    }
+}
+
+@media screen and (max-width: 480px){
+    .about{
+        height: 1400px;
+    }
+
+    .about h1{
+        font-size: 1.2rem;
+    }
+    
+    .about__card{
+        width: 300px;
+    }
+}
+
+/*footer*/
+
+.footer__container{
+    background-color: #5B91E5;
+    padding: 4rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#footer__logo{
+    display: flex;
+    color:#131313;
+    align-items: center;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 2rem;
+}
+
+.footer__links{
+    width: 100%;
+    max-width: 1000px;
+    display:flex;
+    justify-content: center;
+
+}
+
+.footer__link--wrapper{
+    display: flex;
+}
+
+.footer__link--items{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 16px;
+    text-align: left;
+    width: 160px;
+    box-sizing: border-box;
+    
+}
+
+.footer__link--items h2{
+    margin-bottom: 16px;
+}
+
+.footer__link--items > h2{
+    color:#ffff;
+}
+
+.footer__link--items a{
+    color:#fff;
+    text-decoration: none;
+    margin-bottom: 0.5rem;
+}
+
+.footer__link--items a:hover{
+    color:#2663AA;
+    transition: 0.3s ease-out;}
+
+    /*social icons*/
+
+    .social__icon--link{
+color:#fff;
+font-size:24px;
+
+    }
+
+    .social__media{
+        max-width: 1000px;
+        width:100%
+    }
+
+    .social__media--wrap{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 90%;
+        max-width: 1000px;
+        margin: 40px auto 0 auto;
+    }
+
+    .social__icons{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 240px;
+    }
+
+    .social__logo{
+        color:#fff;
+        justify-self: flex-start;
+        margin-left: 20px;
+        cursor: pointer;
+        text-decoration: none;
+        font-size:2rem;
+        align-items: center;
+        display: flex;
+        margin-bottom: 16px;
+    }
+    
+    .website__right{
+        color:#fff;
+    }
